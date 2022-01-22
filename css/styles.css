@@ -79,6 +79,10 @@ img {
   overflow: hidden;
 }
 
+textarea {
+  resize: none;
+}
+
 /* Шапка сайта */
 /* WebStudio */
 
@@ -267,6 +271,7 @@ img {
 
   opacity: 1;
   transition: opacity var(--animation-time) var(--animation-function);
+  z-index: 10;
 }
 
 .backdrop.is-hidden {
